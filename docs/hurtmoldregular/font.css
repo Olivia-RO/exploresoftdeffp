@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'hurtmoldregular';
+	src: url('./hurtmoldregular.eot');
+	src: local('hurtmoldregular'), url('./hurtmoldregular.woff') format('woff'), url('./hurtmoldregular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_51778">Text with this font applied</p> */
+.fontsforweb_fontid_51778 {
+	font-family: 'hurtmoldregular' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

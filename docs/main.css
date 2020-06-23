@@ -1,0 +1,327 @@
+@font-face {
+	font-family: 'hurtmoldregular';
+	src: local('hurtmoldregular'), url('./hurtmoldregular.woff') format('woff'), url('./hurtmoldregular.ttf') format('truetype');
+}
+.fontsforweb_fontid_51778 {
+    font-family: 'hurtmoldregular' !important;
+}
+html{
+    font-family: Verdana;
+    background-color: #ebe9e7;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: #0006A6;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0006bd;
+}
+.main {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+nav li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #0006bd;
+    color: white;
+    border-radius: 3px;
+    min-width: 50px;
+    text-align: center;
+    transition: background-color 0.25s linear;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+nav li:hover {
+    background-color: #0e86e8;
+}
+.submenu {
+    position: relative;
+}
+.dropdown {
+    font-size:16px; 
+    list-style-type: none;
+    padding-left: 0;
+    position: absolute;
+    top: 47px;
+    left: -1px;
+    min-width: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.75s ease;
+}
+.dropdown li {
+    background-color: #030173; 
+}
+.submenu:hover .dropdown {
+    visibility: visible;
+  opacity: 1;
+}
+div ul {
+    list-style: none;
+    display: inline
+    
+}
+div h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+div p {
+    margin: 0
+}
+div img{
+    height: 100px;
+}
+.mySlides{
+    display: none;
+    width: 100%;
+    height: 500px;
+    animation-name: fade;
+    animation-duration: 4s;
+    
+}
+@keyframes fade{
+    from {opacity: 0.6}
+    to {opacity: 1}
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.container .leftbutton {
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 80px;
+    background-color: #595858;   
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .rightbutton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 500px;
+    background-color: #595858; 
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.leftbutton:hover{
+    opacity: 0.8;
+}
+.rightbutton:hover{
+    opacity: 0.8;
+}
+
+.topleft {
+    position:inherit;
+    width: 45%;
+    margin-left: 5%;
+}
+.midright{
+    width: 45%;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+.bottomleft{
+    position:inherit;
+    margin-left: 5%; 
+    width: 45%;
+    top: 100%; 
+
+}
+.sell {
+    margin-top: 50px; 
+    text-align: center;
+    background-color: #0006A6;
+    color: white;
+    padding: 10px; 
+}
+div h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+div a {
+    text-decoration: underline;
+    color: white; 
+}
+div a:hover{
+    color: #0E86E8;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-style: italic;
+    font-size: 12px;
+    color: #757371;
+}
+
+footer ul li img {
+    height: 50px;
+    width: auto; 
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    padding-left: 10px;
+}
+.shopinfo{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.shopinfo h1{
+    padding-top: 100px;
+    margin-bottom: 0; 
+}
+.shopinfo h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline; 
+}
+.mainbutton{
+    margin: 10px;
+    margin-left: 0;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #0006BD;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.mainbutton:hover{
+    background-color: #3832ed;
+}
+.shopimg {
+    float: left;
+    height: 400px;
+    margin-left: 45px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+.shopbottom{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    letter-spacing: 1px;
+    
+}
+.shopbottom h1 {
+    margin-top: 30px; 
+    width: 50%; 
+}
+.shopbottom h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.greenimg{
+    float: right;
+    height: 400px;
+    margin-left: px;
+    margin-bottom: 20px;
+    padding-left: 
+}
+.shopbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.shopbar ul {
+    margin-left: 0;
+    padding-left: 0; 
+    list-style-type: none;
+    margin: 0; 
+    display: flex;
+    padding-bottom: 0px;
+}
+.shopbar ul li {
+    border: 1.5px solid #0006bd;
+    font-size: 24px;
+    margin: 2px;
+    padding: 15px;
+    margin-bottom:0; 
+    margin-top: 1px;
+    min-width: 50px;
+    text-align: center;
+    transition: background-color 0.25s linear;
+}
+.shopbar a{
+    text-decoration: none;
+    color: black;
+}
+.shopbar li:hover{
+    background-color: #d9d9d9; 
+}
+.standimg{
+    width: 200px;
+}
+.cordimg{
+    float: right;
+    height: 350px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.colorbutton{
+   position: relative; 
+    width: 9%;
+}
+.colorbutton .leftbutton {
+    padding: 0; 
+    padding-bottom: 0;
+    top: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.colorbutton .rightbutton{
+    padding: 0; 
+    padding-bottom: 0;
+    position: absolute;  
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.colorbutton img {
+    width: 35px; 
+    height: auto;
+}
