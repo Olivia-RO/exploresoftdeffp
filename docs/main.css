@@ -325,3 +325,31 @@ footer ul li {
     width: 35px; 
     height: auto;
 }
+.archimg {
+    width: 350px;
+}
+.credit {
+    font-size: 12px; 
+}
+.credit a {
+    text-decoration: none;
+    color: #c633cc; 
+}
+.credit a:hover{
+    color: #852289;
+}
+.assemblylist{ 
+    text-align: center; 
+    margin: auto;
+    margin-top: 5px; 
+    width: 50%;
+    padding: 5px; 
+}
+.assemblylist:hover {
+    border: 1px solid black;  
+    background-color: #dedad7; 
+    box-shadow: 2px 2px #cac5c0; 
+}
+#map {
+    height:500px; 
+}
